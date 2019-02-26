@@ -1,3 +1,6 @@
-var btn = document.querySelector('button');
-var greetings = 'Hello openclassrooms';
-alert(greetings); 
+var btn = document.getElementById('btn');
+var greetings = 'Hello Openclassrooms';
+btn.addEventListener('click',myFunction);
+ function myFunction (){
+ 	alert(greetings);
+ }
